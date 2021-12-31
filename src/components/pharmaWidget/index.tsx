@@ -82,6 +82,26 @@ export default function PharmaWidget() {
           <Text style={{color:'yellow', fontSize:10, margin: 5}}>2.5</Text>
         </View>
       </LinearGradient>
+
+      <View style={{alignItems:'center', position: 'absolute', backgroundColor: 'white', bottom: height/6, left: width/20, borderRadius: 20, elevation: 5, shadowColor: 'gray', width: width/2.3, height: height/8}}>
+        <LinearGradient colors={['#e9ffe5', '#c7fcd9', '#d3d2ff']} style={{marginTop: 15, justifyContent:'center', alignItems:'center', width:40, height: 40, borderRadius: 30}}>
+          <Ionicons name="time-outline" size={26} color="#46AD35" />
+        </LinearGradient> 
+
+        <Text>Pill Reminder</Text>
+        <Text style={{color:'#FE3C28', fontWeight:'bold'}}>SET ALARM</Text>
+      </View>
+
+
+
+      <View style={{alignItems:'center', position: 'absolute', backgroundColor: 'white', bottom: height/6, right: width/20, borderRadius: 20, elevation: 5, shadowColor: 'gray', width: width/2.3, height: height/8}}>
+        <LinearGradient colors={['#e9ffe5', '#c7fcd9', '#d3d2ff']} style={{marginTop: 15, justifyContent:'center', alignItems:'center', width:40, height: 40, borderRadius: 30}}>
+          <Ionicons name="folder-open-outline" size={26} color="#46AD35" />
+        </LinearGradient> 
+
+        <Text>Health Records</Text>
+        <Text style={{color:'#FE3C28', fontWeight:'bold'}}>UPLOAD</Text>
+      </View>
     </>
   )
 }

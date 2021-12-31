@@ -10,6 +10,14 @@ export default function HeaderButton(props: any) {
   )
 }
 
+// export function HeaderButtonWithoutShadow(props: any) {
+//   return (
+//     <TouchableOpacity style={props.style ? [props.style, styles.menuButtonNoShadow] : styles.menuButtonNoShadow}>
+//       <Ionicons name={props.iconName} size={20} color="orange" />
+//     </TouchableOpacity>
+//   )
+// }
+
 const styles = StyleSheet.create({
   menuButton: {
     backgroundColor: '#fff',
@@ -20,4 +28,12 @@ const styles = StyleSheet.create({
     alignItems:"center",
     justifyContent:'center'
   },
+
+  // menuButtonNoShadow: {
+  //   width:40,
+  //   height: 40,
+  //   borderRadius:50,
+  //   alignItems:"center",
+  //   justifyContent:'center'
+  // },
 })
